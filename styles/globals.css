@@ -26,7 +26,7 @@ body {
 h1 {
   width: 100%;
   height: 100%;
-  font-size: 28vw;
+  font-size: 15vw;
   color: white;  
   background: url(/fur.jpg) no-repeat; /* Set the backround image */
   background-clip: text; /* clip the background to the text inside the tag*/
@@ -42,7 +42,7 @@ a {
   text-decoration: none;
   color:  #FDEB37;
   text-transform: lowercase;
-  font-size: 9vw;
+  font-size: 6vw;
 }
 
 * {
