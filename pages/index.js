@@ -1,8 +1,9 @@
-import Head from 'next/head'
-import Menu from '@components/Menu'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
-import { getRouteMatcher } from 'next/dist/shared/lib/router/utils'
+import Head from "next/head";
+import Image from "next/image";
+import Menu from "@components/Menu";
+import Header from "@components/Header";
+import Footer from "@components/Footer";
+import { getRouteMatcher } from "next/dist/shared/lib/router/utils";
 
 export default function Home() {
   return (
@@ -12,10 +13,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Menu></Menu>
-      <main>
-        <h1>PÅSKE<br/>LEKER<br/>2023</h1>          
+      <main style={{display:"flex",alignItems:"center",height:"100%",justifyContent:"center"}}>
+        <div>
+          <h1>PÅSKE <br/> LEKER <br/> 2023 </h1>
+        </div>      
       </main>
-
     </div>
-  )
+  );
 }

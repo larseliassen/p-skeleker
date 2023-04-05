@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Roboto&family=Schibsted+Grotesk:wght@500;900&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;  
-  -webkit-animation-name: example ;
+  font-family: 'Schibsted Grotesk', sans-serif;
+  background-color: #FFFFF2;
+  /*-webkit-animation-name: example ;
   animation-name: example ;
   -webkit-animation-duration: 4s ;
-  animation-duration: 4s ;
+  animation-duration: 4s ;*/
   
 }
 
@@ -23,15 +26,23 @@ body {
 h1 {
   width: 100%;
   height: 100%;
-  font-size: 7em;
+  font-size: 28vw;
   color: white;  
-  background: url(/eggs.jpg) no-repeat; /* Set the backround image */
+  background: url(/fur.jpg) no-repeat; /* Set the backround image */
   background-clip: text; /* clip the background to the text inside the tag*/
   background-size: cover;
   -webkit-text-fill-color: transparent;
   text-align: center;  
-  animation-name: example;
-  animation-duration: 4s;
+  font-weight: 900;
+  /*animation-name: example;
+  animation-duration: 4s;*/ 
+}
+
+a {
+  text-decoration: none;
+  color:  #FDEB37;
+  text-transform: lowercase;
+  font-size: 9vw;
 }
 
 * {
@@ -55,6 +66,8 @@ code {
 }
 
 .container {
+  max-width: 70%;
+  margin: auto;
   height: 100vh;
   display: flex;
   flex-direction: column;
