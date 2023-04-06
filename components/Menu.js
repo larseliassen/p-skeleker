@@ -34,7 +34,7 @@ export default function Menu({ title }) {
         href="/kampsang"
         style={{
           position: "absolute",
-          bottom: "15px",
+          bottom: "25px",
           transform: "rotate(180deg)",
           width: "100%",
           left: "0"

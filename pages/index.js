@@ -11,12 +11,27 @@ export default function Home() {
       <Head>
         <title>Påskeleker 2023 - Solstua</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="theme-color" content="#FDEB37"></meta>
+        <meta name="msapplication-navbutton-color" content="#FDEB37"></meta>
+        <meta
+          name="apple-mobile-web-app-status-bar-style"
+          content="#FDEB37"
+        ></meta>
       </Head>
       <Menu></Menu>
-      <main style={{display:"flex",alignItems:"center",height:"100%",justifyContent:"center"}}>
+      <main
+        style={{
+          display: "flex",
+          alignItems: "center",
+          height: "100%",
+          justifyContent: "center",
+        }}
+      >
         <div>
-          <h1>PÅSKE <br/> LEKER <br/> 2023 </h1>
-        </div>      
+          <h1>
+            PÅSKE <br /> LEKER <br /> 2023{" "}
+          </h1>
+        </div>
       </main>
     </div>
   );
