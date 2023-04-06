@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="container">
       <Menu></Menu>
-      <p style={{"text-align":"center", "margin":"20vw"}}>
+      <p style={{"text-align":"center", "margin":"10vw", "lineHeight":"1"}}>
         Kom la oss samle oss, unge og gamle og ta en sang <br/><br/>
         For nu er planen at alle i klanen skal gå igang <br/><br/>
         Her er glede og smil, her er tjue i stil, Kom og bli med! <br/><br/> 
