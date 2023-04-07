@@ -27,7 +27,7 @@ body {
 h1 {
   width: 100%;
   height: 100%;
-  font-size: 6em;
+  font-size: 3em;
   line-height: 1.3;
   color: white;  
   background: url(/fur.jpg) no-repeat; /* Set the backround image */
@@ -44,7 +44,7 @@ a {
   text-decoration: none;
   color:  #FDEB37;
   text-transform: lowercase;
-  font-size: 8vmin;
+  font-size: 2em;
 }
 
 * {
@@ -68,7 +68,7 @@ code {
 }
 
 .container {
-  max-width: 70%;
+  /*max-width: 70%;*/
   margin: auto;
   height: 100vh;
   display: flex;

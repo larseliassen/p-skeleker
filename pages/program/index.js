@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="container">
       <Menu></Menu>
-      <p style={{ margin: "20vw" }}>
+      <div style={{ margin: "3em" }}>
         <ul>
           <li>Kl. 11.05 Innmarsj Solstua</li>
           <li>Kl. 11.10 Åpning</li>
@@ -16,7 +16,7 @@ export default function Home() {
           </ul>
           <li>Kl. 19.00 Påskelekefest på Solstua</li>
         </ul>
-      </p>
+      </div>
     </div>
   );
 }

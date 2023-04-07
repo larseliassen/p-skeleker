@@ -11,10 +11,10 @@ export default function Menu({ title }) {
       <a
         href="/program"
         style={{
-          position: "absolute",
-          top: "15px",
-          width: "100%",
-          left: "0px",
+          position: "absolute",          
+          right: "-40px",
+          transform: "rotate(90deg)",
+          top: "20%"
         }}
       >
         PROGRAM
@@ -22,10 +22,10 @@ export default function Menu({ title }) {
       <a
         href="/deltakere"
         style={{
-          position: "absolute",
-          right: "-30px",
+          position: "absolute",          
+          right: "-40px",
           transform: "rotate(90deg)",
-          top: "50%",
+          bottom: "20%"
         }}
       >
         DELTAKERE
@@ -33,11 +33,10 @@ export default function Menu({ title }) {
       <a
         href="/kampsang"
         style={{
-          position: "absolute",
-          bottom: "30px",
-          transform: "rotate(180deg)",
-          width: "100%",
-          left: "0"
+          position: "absolute",          
+          left: "-40px",
+          transform: "rotate(-90deg)",
+          bottom: "20%",          
         }}
       >
         KAMPSANG
@@ -46,9 +45,9 @@ export default function Menu({ title }) {
         href="/historie"
         style={{
           position: "absolute",
-          left: "-20px",
-          transform: "rotate(270deg)",
-          top: "50%",
+          left: "-40px",
+          transform: "rotate(-90deg)",
+          top: "20%",
         }}
       >
         HISTORIEN

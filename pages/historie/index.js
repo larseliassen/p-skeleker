@@ -3,10 +3,10 @@ import Menu from "@components/Menu";
 export default function Home() {
   return (
     <div className="container">
-      <Menu></Menu>
-      <div style={{ "overflow": "scroll", height: "80%", textAlign: "center" }}>
+        <Menu></Menu>
+      <div style={{ textAlign: "center", margin: "0 5em", height:"100%"}}>
         <h2>Historien, gjenfortalt av ChatGPT</h2>
-        <p>
+        <p style={{overflow: "auto"}}>
           I over 48 år har beboerne i den lille byen Soløyvannet på Vestlandet
           feiret påsken med en rekke morsomme aktiviteter og leker. Det hele
           begynte en gang på 1970-tallet, da en gruppe venner bestemte seg for å
