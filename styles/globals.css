@@ -24,6 +24,10 @@ body {
   }
 }
 
+.menus div {
+    display: flex;
+}
+
 h1 {
   width: 100%;
   height: 100%;
@@ -75,4 +79,44 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+
+.top-right {
+  transform-origin: top right;
+  right:0;
+  top:0;
+  transform: rotate(-90deg) translateY(-100%);
+}
+.top-right:hover {
+  transform: rotate(90deg) translateX(100%)
+}
+
+.top-left {
+  transform-origin: top left;
+  left:0;
+  top:0;
+  transform: rotate(-90deg) translateX(-100%);
+}
+.top-left:hover {
+  transform: rotate(90deg) translateY(-100%) 
+}
+
+.bottom-right {
+  transform-origin:bottom right;
+  right:0;
+  bottom:0;
+  transform: rotate(-90deg) translateX(100%);
+}
+.bottom-right:hover {
+  transform: rotate(90deg) translateY(100%)
+}
+.bottom-left {
+  transform-origin:bottom left;
+  left:0;
+  bottom:0;
+  transform: rotate(-90deg) translateY(100%);
+}
+.bottom-left:hover {
+  transform: rotate(90deg) translateX(-100%)
 }

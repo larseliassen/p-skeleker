@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="container">
       <Menu></Menu>
-      <div style={{ display: "grid", "gridRow": "auto auto" }}>
+      <div style={{ display: "grid", "gridRow": "auto auto", margin: "2em" }}>
         <div>
           <b>Jakobsly</b> Malin Andrei Martine Emil Hermine Tina Benthe Arne Kjell
         </div>
