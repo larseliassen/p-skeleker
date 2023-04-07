@@ -29,7 +29,7 @@ export default function Home() {
       >
         <div>
           <h1>
-            PÅSKE <br /> LEKER <br /> 2023{" "}
+            PÅSKELEKENE<br />2023{" "}
           </h1>
         </div>
       </main>

@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="container">
       <Menu></Menu>
-      <div style={{ "overflow-y": "auto", height: "80%" }}>
+      <div style={{ "overflow": "scroll", height: "80%" }}>
         <h2>Historien, gjenfortalt av ChatGPT</h2>
         <p
           style={{
