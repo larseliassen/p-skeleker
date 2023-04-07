@@ -27,7 +27,8 @@ body {
 h1 {
   width: 100%;
   height: 100%;
-  font-size: 20vmin;
+  font-size: 6em;
+  line-height: 1.3;
   color: white;  
   background: url(/fur.jpg) no-repeat; /* Set the backround image */
   background-clip: text; /* clip the background to the text inside the tag*/

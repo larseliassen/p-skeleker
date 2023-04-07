@@ -43,7 +43,7 @@ export default function Menu({ title }) {
         KAMPSANG
       </a>
       <a
-        href="/"
+        href="/historie"
         style={{
           position: "absolute",
           left: "-20px",
@@ -51,7 +51,7 @@ export default function Menu({ title }) {
           top: "50%",
         }}
       >
-        FORSIDE
+        HISTORIEN
       </a>
     </div>
   );
